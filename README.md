@@ -1,8 +1,8 @@
-# Test
+# Virtueller Kleiderschrank
 
-## Test Test
+## Gestalte deine eigenen Outfits
 
-Das ist eine Beschreibung
+Das soll die Website können
 
-- Funktion 1
-- Funktion 2
+- Outfit gestalten
+- Outfit speicher
