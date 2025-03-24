@@ -1,0 +1,15 @@
+.test {
+    background: red;
+    background: yellow;
+  }
+  p {
+    background: green;
+  }
+  p {
+    background: #c5ccd5;
+    background: rgba(216, 231, 220, 0.5);
+    background: rgb(173, 160, 185);
+  }
+  p {
+    font-family: "Lucida Console", Courier, monospace;
+  }
