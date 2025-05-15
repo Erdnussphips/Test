@@ -86,8 +86,67 @@ button:hover {
   margin-top: 2rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 300px) {
   .outfit {
     flex-direction: column;
   }
+
+  .part {
+    width: 100%;
+    font-size: 1rem;
+    height: 100px;
+  }
+
+}
+.saved-outfits-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.saved-outfit-card {
+  background: #2a2a2a;
+  padding: 1.2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.saved-outfit-card .outfit-title {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.saved-outfit-parts {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.outfit-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.favorite-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: gold;
+  cursor: pointer;
+}
+.favorite-btn:hover {
+  transform: scale(1.1);
+}
+.delete-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #ff4444;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+.delete-btn:hover {
+  transform: scale(1.1);
 }

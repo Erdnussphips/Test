@@ -12,36 +12,36 @@
     <h1>👗 Virtueller Kleiderschrank</h1>
     <p class="info">Gib deinem Outfit einen Namen und wähle deine Lieblingskombination!</p>
 
-    <input type="text" placeholder="Outfit-Name eingeben" />
+    <input type="text" id="outfit-name" placeholder="Outfit-Name eingeben" />
 
     <div class="outfit">
-      <button>←</button>
-      <div class="part">T-Shirt</div>
-      <button>→</button>
+      <button onclick="changePart('top', -1)">←</button>
+      <div class="part" id="top-part">T-Shirt</div>
+      <button onclick="changePart('top', 1)">→</button>
     </div>
 
     <div class="outfit">
-      <button>←</button>
-      <div class="part">Hose</div>
-      <button>→</button>
+      <button onclick="changePart('bottom', -1)">←</button>
+      <div class="part" id="bottom-part">Hose</div>
+      <button onclick="changePart('bottom', 1)">→</button>
     </div>
 
     <div class="outfit">
-      <button>←</button>
-      <div class="part">Schuhe</div>
-      <button>→</button>
+      <button onclick="changePart('shoes', -1)">←</button>
+      <div class="part" id="shoes-part">Schuhe</div>
+      <button onclick="changePart('shoes', 1)">→</button>
     </div>
 
     <div class="action-buttons">
-      <button>⭐ Favorit</button>
-      <button>💾 Speichern</button>
+      <button onclick="saveOutfit()">💾 Speichern</button>
     </div>
 
     <div class="bottom-button">
-      <button>📂 Alle Outfits ansehen</button>
+      <a href="saved.html"><button>📂 Alle Outfits ansehen</button></a>
     </div>
   </div>
 
+  <script src="script.js"></script>
 </body>
 </html>
 
